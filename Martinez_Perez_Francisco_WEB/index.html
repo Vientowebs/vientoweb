@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="rss.xml">
+  <title>Página Principal</title>
+</head>
+<body>
+  <div class="cabecera">¡Bienvenidos al curso 24-25!</div>
+  <div class="izquierda">
+    <nav>
+      <ul>
+        <li><a href="personal.html">Datos Personales</a></li>
+        <li><a href="datos.html">Formulario</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="derecha">
+    <p>Explora esta página para conocer más sobre mí y participar en el formulario de actividades.</p>
+    <p>
+      <a href="rss.xml">
+        <img src="imagenes/rss-icon.jpg" alt="RSS Feed" style="width:24px;height:24px;"> Suscríbete al RSS
+      </a>
+    </p>
+  </div>
+  <div class="pie">Creado por Francisco Martínez</div>
+</body>
+</html>
+
+<!-- Código XML para el archivo RSS -->
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Mi Página Web RSS</title>
+    <description>Feed de noticias de mi página personal</description>
+    <link>https://www.miwebpersonal.com</link>
+    <item>
+      <title>Web del Ayuntamiento</title>
+      <description>Visita la página oficial de nuestro ayuntamiento</description>
+      <link>https://albacete.es/es</link>
+     </item>
+    <item>
+      <title>Francisco Martínez - Datos Personales</title>
+      <description>Conoce más sobre Francisco Martínez</description>
+      <link>https://www.miwebpersonal.com/personal.html</link>
+    </item>
+  </channel>
+</rss>
